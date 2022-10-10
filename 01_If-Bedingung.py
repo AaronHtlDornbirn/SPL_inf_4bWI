@@ -1,13 +1,13 @@
 import random
 
 random = random.Random()
-randomnumber01 = random.randint(1,100)
+randnr1 = random.randint(1,100)
 
-print(randomnumber01)
+print(randnr1)
 
-if(randomnumber01 < 20):
+if(randnr1 < 20):
     print("mini")
-if(randomnumber01 <= 50):
+elif(randnr1 <= 50):
     print("medium")
 else:
     print("large")
